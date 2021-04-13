@@ -161,7 +161,7 @@ transition: all .1s ease-in;
 
 .f1:before{
   content: "";
-  background-image: url(/img/Group1.png);
+  background-image: url(../img/Group1.png);
   background-size: cover;
   height: 33px;
   width: 33px;
@@ -187,7 +187,7 @@ transition: all .1s ease-in;
 
 .f2:before{
   content: "";
-  background-image: url(/img/Group2.png);
+  background-image: url(../img/Group2.png);
   background-size: cover;
   height: 33px;
   width: 33px;
@@ -200,7 +200,7 @@ transition: all .1s ease-in;
 .slide3 {
   margin: 0;
   height: 500px;
-  background-image: url(/img/2nd_pic_right.jpg);
+  background-image: url(../img/2nd_pic_right.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ transition: all .1s ease-in;
 .slide6 {
   margin: 0;
   height: 700px;
-  background-image: url(/img/Pic_3.jpg);
+  background-image: url(../img/Pic_3.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -350,7 +350,7 @@ transition: all .1s ease-in;
 .slide7 {
   margin: 0;
   height: 800px;
-  background-image: url(/img/4rth-1.jpg);
+  background-image: url(../img/4rth-1.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -391,7 +391,7 @@ transition: all .1s ease-in;
 .slide8 {
   margin: 0;
   height: 800px;
-  background-image: url(/img/Obi.png);
+  background-image: url(../img/Obi.png);
   background-attachment: fixed;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -427,7 +427,7 @@ transition: all .1s ease-in;
 .slide9 {
   margin: 0;
   height: 735px;
-  background-image: url(/img/Mushroom-Bottom.jpg);
+  background-image: url(../img/Mushroom-Bottom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -476,7 +476,7 @@ transition: all .1s ease-in;
 .slide10 {
   margin: 0;
   height: 800px;
-  background-image: url(/img/WOrk-jpg.jpg);
+  background-image: url(../img/WOrk-jpg.jpg);
   background-attachment: fixed;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -507,7 +507,7 @@ transition: all .1s ease-in;
 
 .f3:before{
   content: "";
-  background-image: url(/img/Group3.png);
+  background-image: url(../img/Group3.png);
   background-size: cover;
   height: 33px;
   width: 33px;
@@ -519,7 +519,7 @@ transition: all .1s ease-in;
 
 .f4:before{
   content: "";
-  background-image: url(/img/Group4.png);
+  background-image: url(../img/Group4.png);
   background-size: cover;
   height: 33px;
   width: 33px;
@@ -538,7 +538,7 @@ transition: all .1s ease-in;
 .slide11 {
   margin: 0;
   height: 800px;
-  background-image: url(/img/Car.jpg);
+  background-image: url(../img/Car.jpg);
   background-attachment: fixed;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -578,7 +578,7 @@ transition: all .1s ease-in;
 .slide12 {
   margin: 0;
   height: 800px;
-  background-image: url(/img/Man-with-logo-65656-1.jpg);
+  background-image: url(../img/Man-with-logo-65656-1.jpg);
   background-attachment: fixed;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -728,7 +728,7 @@ transition: all .1s ease-in;
   }
   .slide1{
     background-position: right;
-    background-image: url(/img/mAINSCREEN_thinner.jpg);
+    background-image: url(../img/mAINSCREEN_thinner.jpg);
   }
   .slide1_cont{
     width: 576px;
@@ -864,7 +864,7 @@ transition: all .1s ease-in;
     height: 500px;
     background-size: cover;
     background-position: center center;
-    background-image: url(/img/Pic3_mobile.jpg);
+    background-image: url(../img/Pic3_mobile.jpg);
   }
   .slide7_cont{
     width: 576px;
@@ -877,7 +877,7 @@ transition: all .1s ease-in;
     height: 500px;
     background-size: cover;
     background-position: center center;
-    background-image: url(/img/Pic_4_mobile.jpg);
+    background-image: url(../img/Pic_4_mobile.jpg);
   }
 
   .slide7 {
@@ -925,7 +925,7 @@ transition: all .1s ease-in;
 .slide8_img2{
   height: 500px;
   width: 100%;
-  background-image: url(/img/Obi.png);
+  background-image: url(../img/Obi.png);
   background-size: cover;
   background-position: center center;
 }
@@ -962,7 +962,7 @@ transition: all .1s ease-in;
   height: 500px;
   width: 100%;
   background-size: cover;
-  background-image: url(/img/WOrk-jpg.jpg);
+  background-image: url(../img/WOrk-jpg.jpg);
 }
 
 .slide10_header{
@@ -987,7 +987,7 @@ transition: all .1s ease-in;
 
 .f3:before{
   content: "";
-  background-image: url(/img/Group3.png);
+  background-image: url(../img/Group3.png);
   background-size: cover;
   height: 55px;
   width: 55px;
@@ -998,7 +998,7 @@ transition: all .1s ease-in;
 }
 .f4:before{
   content: "";
-  background-image: url(/img/Group4.png);
+  background-image: url(../img/Group4.png);
   background-size: cover;
   height: 55px;
   width: 55px;
@@ -1027,7 +1027,7 @@ transition: all .1s ease-in;
   height: 500px;
   width: 100%;
   background-size: cover;
-  background-image: url(/img/Car.jpg);
+  background-image: url(../img/Car.jpg);
 }
 
 .slide11_header{
@@ -1061,7 +1061,7 @@ transition: all .1s ease-in;
   height: 500px;
   width: 100%;
   background-size: cover;
-  background-image: url(/img/Man-with-logo-65656-1.jpg);
+  background-image: url(../img/Man-with-logo-65656-1.jpg);
 }
 
 .slide12_header{
@@ -1213,7 +1213,7 @@ transition: all .1s ease-in;
   .slide1{
     height: 600px;
     background-position: left;
-    background-image: url(/img/Mobile_art_prolonged.jpg);
+    background-image: url(../img/Mobile_art_prolonged.jpg);
   }
   .slide1_header{
     padding-top: 40px;
