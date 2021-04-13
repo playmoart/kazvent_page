@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/flickity.min.css" media="screen">
   <script src="js/flickity.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <header class="header">
@@ -186,11 +190,12 @@
   </section>
   <section class="partners">
     <h2 class="partners_header">Наши партнёры</h2>
-    <div class="carousel" data-flickity='{ "groupCells": true }'>
-      <div class="carousel-cell"><img src="" alt=""></div>
-      <div class="carousel-cell"><img src="" alt=""></div>
-      <div class="carousel-cell"><img src="" alt=""></div>
-      <div class="carousel-cell"><img src="" alt=""></div>
+    <div class="customer-logos">
+      <div class="slide"><img src="img/Bi_group.jpg"></div>
+      <div class="slide"><img src="img/TAU.jpg"></div>
+      <div class="slide"><img src="img/Bazis_normalised.jpg"></div>
+      <div class="slide"><img src="img/Sensata.jpg"></div>
+    </div>
   </section>
   <section class="slide15">
     <section class="slide15_cont">
@@ -259,6 +264,30 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+  $(document).ready(function () {
+    $('.customer-logos').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      }, {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 2
+        }
+      }]
+    });
+  });
 </script>
+
 
 </html>
