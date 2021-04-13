@@ -37,7 +37,7 @@ text-transform: uppercase;
 }
 .logo{
   width: 180px;
-  background-image: url(/img/Logo.png);
+  background-image: url(../img/Logo.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -63,7 +63,7 @@ text-decoration: underline;
 
 .slide1{
   height: 800px;
-  background-image: url(/img/homescreen_bg.jpg);
+  background-image: url(../img/homescreen_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
