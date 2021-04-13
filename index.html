@@ -9,6 +9,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   </style>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flickity.min.css" media="screen">
+  <script src="js/flickity.min.js"></script>
 
 </head>
 <header class="header">
@@ -45,7 +47,7 @@
     <section class="slide1_cont">
 
       <h1 class="slide1_header">РАЗРАБОТЧИК <br>И ПРОИЗВОДИТЕЛЬ</h1>
-      <p class="slide1_desc">адаптированных вентклапанов с направленной подачей воздуха</p>
+      <p class="slide1_desc">адаптированных аэраторов с направленной подачей воздуха</p>
       <button class="slide1_button">узнать больше</button>
     </section>
   </section>
@@ -173,8 +175,89 @@
       </div>
     </section>
   </section>
-
-
+  <section class="slide13">
+    <section class="slide13_cont">
+      <h2 class="slide13_header">Уникальные разработки</h2>
+      <div class="slide13_desc">
+        <p>Более 10 патентных решений и свой отдел разработки и внедрения.
+      </div>
+      </p>
+    </section>
+  </section>
+  <section class="partners">
+    <h2 class="partners_header">Наши партнёры</h2>
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+      <div class="carousel-cell"><img src="" alt=""></div>
+      <div class="carousel-cell"><img src="" alt=""></div>
+      <div class="carousel-cell"><img src="" alt=""></div>
+      <div class="carousel-cell"><img src="" alt=""></div>
+  </section>
+  <section class="slide15">
+    <section class="slide15_cont">
+      <h2 class="slide15_header">Закажите образцы</h2>
+      <p class="slide15_desc">Остались вопросы, свяжитесь с нами. Наш менеджер привезёт образцы и расскажет все
+        подробности о продукции.</p>
+      <button class="whatsapp">
+        <p>Написать в Whats App</p>
+      </button>
+    </section>
+  </section>
 </body>
+<footer>
+  <img class="footer_bg_img" src="/img/kazvent218.png" alt="">
+  <div class="footer_cont">
+
+    <div class="col1">
+      <img src="/img/logo33.png" alt="">
+      <p class="col1_desc">
+        Производтство и установка аэраторов с адаптированной подачей воздуха
+      </p>
+    </div>
+    <div class="col2">
+      <h2 class="col2_header">Контакты</h2>
+      <p class="col2_phone">+7(777) 13-777-13</p>
+      <p class="col2_mail">example@mail.kz</p>
+      <p class="col2_address">город Нур-Султан, ЖК “Nova city-8”</p>
+    </div>
+    <div class="col3">
+      <h2 class="col3_header">Меню</h2>
+      <ul class="col3_menu">
+        <li class="col3_menu_item"><a href="">Главная</a></li>
+        <li class="col3_menu_item"><a href="">Фотогалерея</a></li>
+        <li class="col3_menu_item"><a href="">Контакты</a></li>
+        <li class="col3_menu_item"><a href="">Блог</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="upbutton">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2020 KAZVENT</p>
+    <p>Cделано в <a href="">Volki</a></p>
+  </div>
+</footer>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 500) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 
 </html>
