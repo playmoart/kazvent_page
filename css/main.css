@@ -1043,7 +1043,7 @@ color: #C5C5C5;
   }
   .logo_mobile{
     display: block;
-    width: 180px;
+    width: 150px;
     margin-left: 20px;
   }
   .header{
@@ -1752,7 +1752,7 @@ footer{
 }
   .logo_mobile{
     display: block;
-    width: 180px;
+    width: 130px;
     margin-left: 20px;
   }
   .slide1_header{
@@ -2058,7 +2058,10 @@ footer{
     padding-top: 150px;
     margin-left: 0;
   }
-
+  .slide15{
+    background-position: center;
+    background-attachment: unset;
+  }
   .footer_cont{
     display: flex;
     flex-direction: column;
