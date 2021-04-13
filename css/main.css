@@ -766,7 +766,7 @@ transition: all .1s ease-in;
   font-size: 45px;
   width: 992px;
   font-family: Montserrat;
-  color: black;
+  color: white;
   font-weight: bold;
   margin: 0;
   text-align: center;
@@ -775,7 +775,7 @@ transition: all .1s ease-in;
 .slide13_desc{
   margin-top: 30px;
   font-family: Montserrat;
-  color: #424242;
+  color: white;
   font-weight: light;
   width: 992px;
   font-size: 18px;
