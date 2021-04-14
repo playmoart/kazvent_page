@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kazvent</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+<header class="header">
+  <section class="mobile_header">
+    <a href="/index.html"><img src="img/Logo.webp" alt="" class="logo_mobile"></a>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="/index.html">Главная</a></li>
+        <li><a class="menu__item" href="/gallery.html">Фотогалерея</a></li>
+        <li><a class="menu__item" href="/contacts.html">Контакты</a></li>
+        <li><a class="menu__item" href="/blog.html">Блог</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="header2">
+
+    <a href="/index.html"><img src="img/Logo.webp" alt="" class="logo"></a>
+
+
+    <section class="menu">
+      <ul class="menu1">
+        <li class="menu_element"><a href="/index.html">Главная</a></li>
+        <li class="menu_element"><a href="/gallery.html">Фотогалерея</a></li>
+        <li class="menu_element"><a href="/contacts.html">Контакты</a></li>
+        <li class="menu_element"><a href="/blog.html">Блог</a></li>
+      </ul>
+    </section>
+  </section>
+</header>
+
+<body>
+  <img src="img/Man-with-logo-65656-1.webp" alt="" class="blog_header_img">
+  <section class="blog_page_wrapper">
+
+    <h3 class="post_date">14.04.2021</h3>
+    <h2 class="blog_page_header">Новый инструментарий</h2>
+    <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, natus consectetur! Voluptate ut
+      reprehenderit sint quae iste, totam porro eius enim illum suscipit voluptates in possimus labore reiciendis?
+      Corrupti, cum?
+      Optio ad velit in officiis, accusamus facilis, ut quo aliquam, laboriosam modi eaque laborum quisquam quod rem. Ab
+      culpa molestias accusamus officiis excepturi natus laborum, libero optio autem, quo doloribus!
+      Ullam nam, neque distinctio nulla quae dolore consectetur aliquid esse? Impedit debitis fugit natus necessitatibus
+      excepturi dolore exercitationem pariatur odit, quas sit, iure quis aliquid totam numquam eos, voluptas corporis.
+      Earum illo optio dolorum ipsa dolores distinctio culpa eum soluta delectus blanditiis nam odit labore recusandae
+      natus, illum eligendi numquam, omnis doloribus quae, necessitatibus dolor ipsam nobis dolorem enim. Obcaecati!
+      Excepturi, veniam quam, deleniti nesciunt dignissimos quas, velit officia nihil cum distinctio officiis maiores
+      fugit ipsum. Repudiandae, quisquam labore. Quaerat a itaque debitis inventore consequuntur vero dignissimos magni,
+      praesentium deserunt!</p>
+    <input class="back_button" type="button" value="Назад" onclick="history.back(-1)" />
+  </section>
+</body>
+<footer class=" wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200"">
+  <img class=" footer_bg_img" src="img/kazvent218.webp" alt="">
+  <div class="footer_cont">
+
+    <div class="col1">
+      <img src="img/logo33.webp" alt="">
+      <p class="col1_desc">
+        Производтство и установка аэраторов с адаптированной подачей воздуха
+      </p>
+    </div>
+    <div class="col2">
+      <h2 class="col2_header">Контакты</h2>
+      <p class="col2_phone"><a href="tel:+77771377713">+7(777) 13-777-13</a></p>
+      <p class="col2_mail"><a href="mailto:kazventastana@gmail.com">kazventastana@gmail.com</a></p>
+      <p class="col2_address">город Нур-Султан, ЖК “Nova city-8”</p>
+    </div>
+    <div class="col3">
+      <h2 class="col3_header">Меню</h2>
+      <ul class="col3_menu">
+        <li class="col3_menu_item"><a href="/index.html">Главная</a></li>
+        <li class="col3_menu_item"><a href="/gallery.html">Фотогалерея</a></li>
+        <li class="col3_menu_item"><a href="/contacts.html">Контакты</a></li>
+        <li class="col3_menu_item"><a href="/blog.html">Блог</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="upbutton">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+  </div>
+  <div class="copyright">
+    <p>Copyright © <span id="year">
+        <script>document.write(new Date().getFullYear())</script></span> KAZVENT</p>
+    <p class="volki">Cделано в <a href="http://volki.tv">Volki&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+  </div>
+</footer>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+
+
+
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 500) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  $(document).ready(function () {
+    $('.customer-logos').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      }, {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 2
+        }
+      }]
+    });
+  });
+
+</script>
+
+</html>

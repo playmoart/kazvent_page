@@ -8,35 +8,42 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   </style>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+
 </head>
 <header class="header">
   <section class="mobile_header">
-    <img src="img/Logo.png" alt="" class="logo_mobile">
+    <a href="/index.html"><img src="img/Logo.webp" alt="" class="logo_mobile"></a>
     <div class="hamburger-menu">
       <input id="menu__toggle" type="checkbox" />
       <label class="menu__btn" for="menu__toggle">
         <span></span>
       </label>
       <ul class="menu__box">
-        <li><a class="menu__item" href="#">Главная</a></li>
-        <li><a class="menu__item" href="#">Фотогалерея</a></li>
-        <li><a class="menu__item" href="#">Контакты</a></li>
-        <li><a class="menu__item" href="#">Блог</a></li>
+        <li><a class="menu__item" href="/index.html">Главная</a></li>
+        <li><a class="menu__item" href="/gallery.html">Фотогалерея</a></li>
+        <li><a class="menu__item" href="/contacts.html">Контакты</a></li>
+        <li><a class="menu__item" href="/blog.html">Блог</a></li>
       </ul>
     </div>
   </section>
   <section class="header2">
-    <section class="logo"></section>
+
+    <a href="/index.html"><img src="img/Logo.webp" alt="" class="logo"></a>
+
+
     <section class="menu">
       <ul class="menu1">
-        <li class="menu_element"><a href="">Главная</a></li>
-        <li class="menu_element"><a href="">Фотогалерея</a></li>
-        <li class="menu_element"><a href="">Контакты</a></li>
-        <li class="menu_element"><a href="">Блог</a></li>
+        <li class="menu_element"><a href="/index.html">Главная</a></li>
+        <li class="menu_element"><a href="/gallery.html">Фотогалерея</a></li>
+        <li class="menu_element"><a href="/contacts.html">Контакты</a></li>
+        <li class="menu_element"><a href="/blog.html">Блог</a></li>
       </ul>
     </section>
   </section>
@@ -46,14 +53,16 @@
   <section class="slide1">
     <section class="slide1_cont">
 
-      <h1 class="slide1_header">РАЗРАБОТЧИК <br>И ПРОИЗВОДИТЕЛЬ</h1>
-      <p class="slide1_desc">адаптированных аэраторов с направленной подачей воздуха</p>
-      <button class="slide1_button">узнать больше</button>
+      <h1 class="slide1_header wow fadeIn" data-wow-duration="2s">РАЗРАБОТЧИК <br>И ПРОИЗВОДИТЕЛЬ</h1>
+      <p class=" slide1_desc">адаптированных аэраторов с направленной подачей воздуха</p>
+      <button class="slide1_button"><a style="text-decoration: none; color: inherit;"
+          href="https://api.whatsapp.com/send?phone=77771377713">связаться с
+          нами</a></button>
     </section>
   </section>
-  <section class="slide2">
+  <section class="slide2 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <section class="silde2_cont">
-      <div class="slide2_img"><img src="img/im1.png" alt=""></div>
+      <div class="slide2_img"><img src="img/im1.webp" alt=""></div>
       <div class="slide2_content">
         <h2 class="slide2_header">Разработаны для Казахстана</h2>
         <p class="slide2_desc">Диаметр рабочего канала 40 мм разработан с учётом силы ветра и широкого диапазона
@@ -68,15 +77,15 @@
       </div>
     </section>
   </section>
-  <section class="slide3">
+  <section class="slide3 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <section class="slide3_cont">
       <h2 class="slide3_header">Качественные материалы</h2>
       <p class="slide3_desc">Для оголовков в квартирах применяются не желтеющие и не выделяющие фенол ABS-пластики.</p>
     </section>
   </section>
-  <section class="slide4">
+  <section class="slide4 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <section class="slide4_cont">
-      <div class="slide4_img"><img src="img/im2.png" alt=""></div>
+      <div class="slide4_img"><img src="img/im2.webp" alt=""></div>
       <div class="slide4_content">
         <h2 class="slide4_header">Свежий и чистый</h2>
         <p class="slide4_desc">Каждый клапан снабжён фильтрующим элементом, не позволяющим проникать в квартиру, пыли и
@@ -84,9 +93,9 @@
       </div>
     </section>
   </section>
-  <section class="slide5">
+  <section class="slide5 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <section class="slide5_cont">
-      <div class="slide5_logo"><img src="/img/kazvent219.png" alt=""></div>
+      <div class="slide5_logo"><img src="/img/kazvent219.webp" alt=""></div>
       <div class="line1"></div>
       <h2 class="slide5_header">
         №1 в Казахстане.<br> 5 лет на рынке. 95% рынка.
@@ -94,7 +103,7 @@
       <div class="line2"></div>
     </section>
   </section>
-  <section class="slide6">
+  <section class="slide6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <div class="slide6_img"></div>
     <section class="slide6_cont">
       <h2 class="slide6_header">Направленная подача</h2>
@@ -102,7 +111,7 @@
         при раздвинутых шторах и максимально используя нагревающую поверхность радиатора.</p>
     </section>
   </section>
-  <section class="slide7">
+  <section class="slide7 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <div class="slide7_img"></div>
     <section class="slide7_cont">
 
@@ -112,7 +121,7 @@
         станут украшением квартиры, шторки-слайдеры позволяют обойтись без висящих вдоль стен «веревочек».</p>
     </section>
   </section>
-  <section class="slide8">
+  <section class="slide8 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <div class="slide8_img2"></div>
     <section class="slide8_cont">
       <div class="slide8_img"></div>
@@ -123,7 +132,7 @@
       </div>
     </section>
   </section>
-  <section class="slide9">
+  <section class="slide9 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <section class="slide9_cont">
       <h2 class="slide9_header">Индивидуально ваш</h2>
       <div class="slide9_desc">
@@ -133,7 +142,7 @@
       </p>
     </section>
   </section>
-  <section class="slide10">
+  <section class="slide10 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <div class="slide10_img2"></div>
     <section class="slide10_cont">
       <div class="slide10_img"></div>
@@ -151,7 +160,7 @@
       </div>
     </section>
   </section>
-  <section class="slide11">
+  <section class="slide11 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <div class="slide11_img2"></div>
     <section class="slide11_cont">
       <div class="aaaa"></div>
@@ -164,7 +173,7 @@
       <div class="slide11_img"></div>
     </section>
   </section>
-  <section class="slide12">
+  <section class="slide12 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <div class="slide12_img2"></div>
     <section class="slide12_cont">
       <div class="slide12_img"></div>
@@ -175,7 +184,7 @@
       </div>
     </section>
   </section>
-  <section class="slide13">
+  <section class="slide13 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <section class="slide13_cont">
       <h2 class="slide13_header">Уникальные разработки</h2>
       <div class="slide13_desc">
@@ -184,51 +193,56 @@
       </p>
     </section>
   </section>
-  <section class="partners">
+  <section class="partners wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <h2 class="partners_header">Наши партнёры</h2>
     <div class="customer-logos">
-      <div class="slide"><img src="img/Bi_group.jpg"></div>
-      <div class="slide"><img src="img/TAU.jpg"></div>
-      <div class="slide"><img src="img/Bazis_normalised.jpg"></div>
-      <div class="slide"><img src="img/Sensata.jpg"></div>
+      <div class="slide"><img src="img/Bi_group.webp"></div>
+      <div class="slide"><img src="img/TAU.webp"></div>
+      <div class="slide"><img src="img/Bazis_normalised.webp"></div>
+      <div class="slide"><img src="img/Sensata.webp"></div>
     </div>
 
   </section>
-  <section class="slide15">
+  <section class="slide15 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
     <section class="slide15_cont">
       <h2 class="slide15_header">Закажите образцы</h2>
       <p class="slide15_desc">Остались вопросы, свяжитесь с нами. Наш менеджер привезёт образцы и расскажет все
         подробности о продукции.</p>
       <button class="whatsapp">
-        <p>Написать в Whats App</p>
+        <p><a style="text-decoration: none; color: inherit;"
+            href="https://api.whatsapp.com/send?phone=77771377713">Написать в Whats App</a></p>
       </button>
     </section>
   </section>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
-<footer>
-  <img class="footer_bg_img" src="img/kazvent218.png" alt="">
+<footer class=" wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200"">
+  <img class=" footer_bg_img" src="img/kazvent218.webp" alt="">
   <div class="footer_cont">
 
     <div class="col1">
-      <img src="img/logo33.png" alt="">
+      <img src="img/logo33.webp" alt="">
       <p class="col1_desc">
         Производтство и установка аэраторов с адаптированной подачей воздуха
       </p>
     </div>
     <div class="col2">
       <h2 class="col2_header">Контакты</h2>
-      <p class="col2_phone">+7(777) 13-777-13</p>
-      <p class="col2_mail">example@mail.kz</p>
+      <p class="col2_phone"><a href="tel:+77771377713">+7(777) 13-777-13</a></p>
+      <p class="col2_mail"><a href="mailto:kazventastana@gmail.com">kazventastana@gmail.com</a></p>
       <p class="col2_address">город Нур-Султан, ЖК “Nova city-8”</p>
     </div>
     <div class="col3">
       <h2 class="col3_header">Меню</h2>
       <ul class="col3_menu">
-        <li class="col3_menu_item"><a href="">Главная</a></li>
-        <li class="col3_menu_item"><a href="">Фотогалерея</a></li>
-        <li class="col3_menu_item"><a href="">Контакты</a></li>
-        <li class="col3_menu_item"><a href="">Блог</a></li>
+        <li class="col3_menu_item"><a href="/index.html">Главная</a></li>
+        <li class="col3_menu_item"><a href="/gallery.html">Фотогалерея</a></li>
+        <li class="col3_menu_item"><a href="/contacts.html">Контакты</a></li>
+        <li class="col3_menu_item"><a href="/blog.html">Блог</a></li>
       </ul>
     </div>
 
@@ -237,13 +251,18 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
   </div>
   <div class="copyright">
-    <p>Copyright © 2020 KAZVENT</p>
-    <p>Cделано в <a href="">Volki</a></p>
+    <p>Copyright © <span id="year">
+        <script>document.write(new Date().getFullYear())</script></span> KAZVENT</p>
+    <p class="volki">Cделано в <a href="http://volki.tv">Volki&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
   </div>
 </footer>
+
 <script>
   //Get the button
   var mybutton = document.getElementById("myBtn");
+
+
+
 
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function () { scrollFunction() };
@@ -284,6 +303,7 @@
       }]
     });
   });
+
 </script>
 
 
